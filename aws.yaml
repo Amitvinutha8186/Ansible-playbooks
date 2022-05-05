@@ -1,0 +1,7 @@
+---
+ - host: mynodes
+   become: yes
+   gather_facts: no
+   tasks:
+     - name: installing java
+        apt
